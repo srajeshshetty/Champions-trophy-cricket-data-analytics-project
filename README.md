@@ -64,6 +64,4 @@ notebooks/
 README.md
 ```
 
-## Author
-Smithesh Shetty  
-https://github.com/smithesh-shetty
+

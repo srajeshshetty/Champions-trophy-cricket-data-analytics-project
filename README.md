@@ -1,22 +1,28 @@
 Cricket Champions Trophy Data Analytics Dashboard
 Overview
 
-This project is a Power BI dashboard analyzing ICC Champions Trophy data.
-It uses Python (Pandas) for data cleaning and focuses on match results, player impact, and team performance.
+This project presents a Power BI dashboard built on ICC Champions Trophy data.
+It involves data preprocessing using Python (Pandas) and visualizing match outcomes, player performance, and team statistics.
 
 Tech Stack
 Python (Pandas)
 Power BI
-CSV
+CSV Files
 Datasets
+Player Dataset
 
-Player Dataset (all_champions_trophy_players_list.csv)
+all_champions_trophy_players_list.csv
+
+Columns:
 
 Team
 Year
 Player Name
+Match Dataset
 
-Match Dataset (all_champions_trophy_matches_results-updated.csv)
+all_champions_trophy_matches_results-updated.csv
+
+Columns:
 
 Team1, Team2, Toss, Match days, Winner
 Player of the Match, Margin, Ground, Match Date
@@ -26,28 +32,27 @@ Team1 Avg Bowling Ranking, Team2 Avg Bowling Ranking
 Team1 Total CTs participated, Team1 Total CTs won
 Team2 Total CTs participated, Team2 Total CTs won
 Team1 W/L ratio over Team2
-Processing
-Cleaned missing and duplicate data
+Data Processing
+Removed missing and duplicate values
 Standardized formats
-Prepared data for dashboard
-Features
-Team wins analysis
+Prepared datasets for visualization
+Dashboard Features
+Team performance analysis
 Toss vs match result
-Player of the Match analysis
-Venue-based insights
+Player of the Match insights
+Venue-based trends
 Match type comparison
-Insights
-Winner is often influenced by Toss outcome
-Repeated names in Player of the Match show key performers
-Ground impacts match results and frequency
-Match days affects match patterns
-Better batting and bowling rankings improve win chances
-Historical stats and W/L ratio influence outcomes
+Key Insights
+Toss outcome influences match results
+Certain players frequently win Player of the Match
+Match results vary across different Ground
+Rankings (batting and bowling) impact team performance
+Historical stats and W/L ratio affect outcomes
 Usage
 Clone the repository
-Open .pbix in Power BI
-Explore using filters
-Structure
+Open the .pbix file in Power BI
+Explore the dashboard using filters
+Project Structure
 data/
 dashboard/
 notebooks/

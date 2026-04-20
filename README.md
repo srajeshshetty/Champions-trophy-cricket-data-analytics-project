@@ -32,22 +32,28 @@ Team1 Avg Bowling Ranking, Team2 Avg Bowling Ranking
 Team1 Total CTs participated, Team1 Total CTs won
 Team2 Total CTs participated, Team2 Total CTs won
 Team1 W/L ratio over Team2
+
+
 Data Processing
 Removed missing and duplicate values
 Standardized formats
 Prepared datasets for visualization
+
 Dashboard Features
+
 Team performance analysis
 Toss vs match result
 Player of the Match insights
 Venue-based trends
 Match type comparison
+
 Key Insights
 Toss outcome influences match results
 Certain players frequently win Player of the Match
 Match results vary across different Ground
 Rankings (batting and bowling) impact team performance
 Historical stats and W/L ratio affect outcomes
+
 Usage
 Clone the repository
 Open the .pbix file in Power BI

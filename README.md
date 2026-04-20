@@ -1,77 +1,43 @@
 Cricket Champions Trophy Data Analytics Dashboard
 Overview
 
-This project presents a data analytics dashboard for the ICC Champions Trophy using Power BI. It focuses on analyzing match results, player participation, and team performance to generate meaningful insights.
-
-The workflow includes data collection, preprocessing using Python (Pandas), and dashboard development in Power BI.
+Power BI dashboard analyzing ICC Champions Trophy data.
+Includes data cleaning using Python (Pandas) and visualization of match results, player performance, and team insights.
 
 Tech Stack
-Python (Pandas) – Data cleaning and preprocessing
-Power BI – Data visualization
-CSV – Data source
-Jupyter Notebook – Data processing
+Python (Pandas)
+Power BI
+CSV
 Datasets
-1. Player Dataset
 
-File: all_champions_trophy_players_list.csv
-
-Columns:
+Player Dataset (all_champions_trophy_players_list.csv)
 
 Team
 Year
 Player Name
-2. Match Dataset
 
-File: all_champions_trophy_matches_results-updated.csv
+Match Dataset (all_champions_trophy_matches_results-updated.csv)
 
-Columns:
-
-Team1
-Team2
-Toss
-Match days
-Winner
-Player of the Match
-Margin
-Ground
-Match Date
+Team1, Team2, Toss, Match days, Winner
+Player of the Match, Margin, Ground, Match Date
 ODI Int Match
-Team1 Avg Batting Ranking
-Team2 Avg Batting Ranking
-Team1 Avg Bowling Ranking
-Team2 Avg Bowling Ranking
-Team1 Total CTs participated
-Team1 Total CTs won
-Team2 Total CTs participated
-Team2 Total CTs won
+Team1 Avg Batting Ranking, Team2 Avg Batting Ranking
+Team1 Avg Bowling Ranking, Team2 Avg Bowling Ranking
+Team1 Total CTs participated, Team1 Total CTs won
+Team2 Total CTs participated, Team2 Total CTs won
 Team1 W/L ratio over Team2
-Data Processing
-Removed missing and duplicate values
-Standardized data formats
-Converted date fields
-Prepared data for visualization
-Dashboard Features
-Team-wise total wins
-Match results based on toss decisions
-Player of the Match analysis
+Features
+Team wins analysis
+Toss vs match result
+Player of the Match insights
 Venue-based performance
-Match type comparison (Day vs Day-Night)
-Winning margin distribution
-Key Insights
-Certain teams dominate overall wins
-Toss decisions influence match outcomes
-Specific venues host more matches
-Day-Night matches show different performance trends
-How to Use
+Day vs Day-Night comparison
+Usage
 Clone the repository
-Open the .pbix file in Power BI
-Use filters to explore the dashboard
-Project Structure
+Open .pbix file in Power BI
+Explore the dashboard
+Structure
 data/
-  all_champions_trophy_players_list.csv
-  all_champions_trophy_matches_results-updated.csv
-notebooks/
-  data_cleaning.ipynb
 dashboard/
-  cricket_dashboard.pbix
+notebooks/
 README.md
